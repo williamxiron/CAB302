@@ -1,7 +1,7 @@
 package CAB302.Backend;
 
 /**
- * Close Ended Mazes are mazes that have their start and end specified with an image
+ * Open Ended Mazes are mazes that have their start and end specified with a hole in the boarder wall
  */
 public class OpenEndedMaze extends Maze {
     /**
