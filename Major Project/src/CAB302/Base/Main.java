@@ -2,6 +2,8 @@ package CAB302.Base;
 
 //for testing
 import static org.junit.jupiter.api.Assertions.*;
+
+import CAB302.FrontEnd.FrontEnd;
 import org.junit.jupiter.api.*;
 
 //for GUI
@@ -15,7 +17,6 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-
     }
 }
 

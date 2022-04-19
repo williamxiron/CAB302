@@ -18,13 +18,13 @@ public class CloseEndedMaze extends Maze{
      * @param endImage This is a string containing the folder location of the maze end image, maze end images are used to specify where a closed ended maze ends.
      * @param logo This is a string containing the folder location of a logo image to be included in the maze (optional).
      */
-    public CloseEndedMaze(float width, float height, String startImage, String endImage, String mazeName, String authorName, String dateTimeCreated, String logo) {
+    public CloseEndedMaze(int width, int height, String startImage, String endImage, String mazeName, String authorName, String dateTimeCreated, String logo) {
         super(width, height, mazeName, authorName, dateTimeCreated, logo);
         this.startImage = startImage;
         this.endImage = endImage;
     }
 
-    public CloseEndedMaze(float width, float height, String mazeName, String authorName, String dateTimeCreated, String startImage, String endImage) {
+    public CloseEndedMaze(int width, int height, String mazeName, String authorName, String dateTimeCreated, String startImage, String endImage) {
         super(width, height, mazeName, authorName, dateTimeCreated);
         this.startImage = startImage;
         this.endImage = endImage;
@@ -44,9 +44,9 @@ public class CloseEndedMaze extends Maze{
         return endImage;
     }
 
-    @Override
-    public void GenerationMaze() {
-        super.GenerationMaze();
-        //Start and endings code here
-    }
+//    @Override
+//    public void GenerationMaze() {
+//        super.GenerationMaze();
+//        //Start and endings code here
+//    }
 }

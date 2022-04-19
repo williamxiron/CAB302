@@ -1,20 +1,13 @@
 package CAB302.Main;
 
 //for testing
-import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.*;
 
 //for GUI
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 //for keyboard input
-import java.util.Scanner;
 
 //Local Packages
-import CAB302.Backend.*;
-import CAB302.Frontend.*;
+import CAB302.FrontEnd.*;
 
 /**
  * Used for running code (imports front end and back end code then meshes them together).
@@ -22,7 +15,9 @@ import CAB302.Frontend.*;
 public class Main {
 
     public static void main(String[] args) {
+        System.out.println("Hello");
 
+        FrontEnd myFrame = new FrontEnd();
     }
 }
 

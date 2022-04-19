@@ -27,7 +27,7 @@ public class MazeDatabase {
      */
     public Maze GetMazeByMazeName(String mazeName) {
         for (int index = 0; index > database.size(); index++) {
-            if (database.get(index).GetMazeName() == mazeName) return database.get(index);
+            if (database.get(index).getMazeName() == mazeName) return database.get(index);
         }
         return null;
     }
